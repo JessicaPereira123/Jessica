@@ -1,0 +1,107 @@
+body
+ {
+   background-color:orange;
+   color: #424242;
+   font-family: sans-sans-serif;
+   margin:32px;
+   font-family: cursive;
+   text-align: justify;
+   background-image: url("https://i.pinimg.com/236x/b7/a6/dd/b7a6dddd4efee3c2d55e306fe326cc57--printable-paper-scrap.jpg")
+ }
+
+h1 {text-align: center;
+}
+
+h2 {text-align: center;}
+
+img {max-width: 100%;
+border-radius: 8px;}
+
+.box{
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 32px;
+}
+
+main.box article {
+  background-color: white;
+  padding:10px;
+  border-radius: 8px;
+  border-style: solid; border-color:black; border-width: 3px;
+}
+
+#titulo
+{
+  background-color: #424242;
+  background-image: url("https://lh3.googleusercontent.com/proxy/2DaaIpyEd7MODY6bM_8awS8S5edCVGn6vkctbGQIFAQD4ZY9O3i7ApbQcayB3Z1YCDkVVqAcRIXk-GODf7ue2WAZ5Vjd5WWtQyHpRiDEA67J7kg71lYyJA06QCq3EiZB1YPwzULdUd8NHpmvKAclPxowkOru0iKVmmXtxbcKEA5WKgY5MXY");
+  color: black;
+  padding: 28px 12px;
+  border-radius: 8px;
+  border-style: solid; border-color:black; border-width: 6px;
+}
+
+article a{
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  display: inline-block;
+  border-radius: 8px;
+  transition: all 0.4s;
+  margin-left: 75%;
+}
+article a:hover {
+  background-color: red;
+}
+
+
+.menu{
+  background-color: black;
+  color: white;
+  display:grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 10px;
+}
+
+nav a{
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+
+
+/*paginateste.html*/
+
+.corpo{background-image: url(https://i.pinimg.com/originals/dc/27/62/dc27628921341ff51e7a42bca1f98d73.jpg);
+text-align: center;color: black;}
+
+.titulos{background-color: white;
+color:black;}
+
+main.caixa1 article {
+  background-color: inherit;
+  padding:10px;
+  border-radius: 8px;
+  grid-gap:10px;
+  border-style: solid; border-color:black; border-width: 3px;
+  margin-bottom: 10px;
+}
+
+
+
+/*paginateste2.html*/
+
+.corpo2{background-image: url(https://i.pinimg.com/originals/22/bf/e0/22bfe04bce353960640998764a5e76e0.jpg);
+text-align: center;color: black;}
+
+.titulos{background-color: black;
+color:white;}
+
+main.caixa article {
+  background-image: url(https://i.pinimg.com/originals/fb/f7/cc/fbf7ccee93dad5c07020f5047cf29758.jpg);
+  padding:10px;
+  border-radius: 8px;
+  grid-gap:50px;
+  border-style: solid; border-color:black; border-width: 3px;
+  margin-bottom: 20px;
+}
